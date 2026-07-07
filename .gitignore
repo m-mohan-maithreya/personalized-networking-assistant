@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Testing / Coverage
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+.cov/
+
+# Local databases/data logs (preserves empty schemas if needed, ignore runtime changes)
+app/data/users.json
+app/data/events.json
+app/data/sessions.json
+app/data/starters.json
+app/data/fact_checks.json
+app/data/logs.json
+app/data/feedback.json
